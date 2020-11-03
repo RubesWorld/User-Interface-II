@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;   
-/* border:0; */
+border:0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -123,4 +123,77 @@ footer{
 
 @media (max-width: 800px){
 /* Changes that occur below WILL ONLY CHANGE WHEN WIDTH IS BELOW 800 */
+
+
+body{
+    font-size:1.5rem;
+}
+
+button{
+    padding: 2%;
+    margin: 1% 0 1% 0;
+}
+
+.links{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+.header-container{
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.top{
+    display:flex;
+    flex-direction: column;
+}
+
+.left{
+    width:100%;
+    margin-left: 0%;
+}
+.right{
+    padding-top: 10rem;
+    padding-left:20rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.box{
+    width:90%;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+
+footer{
+    padding-bottom:5rem;
+}
+
+
+
+
+
+
+
+
+
 }
